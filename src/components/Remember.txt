@@ -1,0 +1,24 @@
+feature includes the 
+parant and child components (both in particular folder )
+action.js and reducer.js 
+
+layout includes the 
+// these folder includes 
+all the master layout of your app. 
+Note. a layout component can include a feature also 
+// also includes 
+content folder with Content.js
+// eg nav (folder with parent and child component)
+// eg footer (folder with parent and child component)
+// eg sidebar (folder with parent and child component)
+
+
+
+
+shared includes the 
+// these folder includes
+all the shared components of your app.
+// here we have all essentially "dump" 
+components.  Their composition relies on props being 
+passed in but they can access the theme.
+
